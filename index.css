@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "Montserrat", "sans-serif";
+    color: #11300c;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  li {
+    cursor: pointer;
+  }
+  li:hover {
+    text-decoration: underline;
+  }
+}
+
+@layer components {
+  .skewBg {
+    /* Rectangle 9 */
+
+    position: absolute;
+    width: 440px;
+    height: 901px;
+    left: 0px;
+    top: 293px;
+
+    background: linear-gradient(
+      107.93deg,
+      rgba(161, 187, 105, 0.6) 13.03%,
+      rgba(247, 230, 202, 0.6) 71.41%,
+      rgba(233, 132, 162, 0.6) 127.01%
+    );
+  }
+}
